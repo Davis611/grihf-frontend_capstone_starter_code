@@ -25,17 +25,41 @@
             <!-- Sign-up form -->
             <article class="signup-form">
                 <form action="#" method="POST" aria-labelledby="signup-form">
+
                     <!-- Name input field -->
                     <div class="form-group">
                         <label for="name" aria-label="Enter your name">Name</label>
                         <input type="text" name="name" id="name" required class="form-control" placeholder="Enter your name" />
                     </div>
+
                      <!-- Phone input field -->
                     <div class="form-group">
                         <label for="phone" aria-label="Enter your phone number">Phone</label>
                         <input type="tel" name="phone" id="phone" required class="form-control" placeholder="Enter your phone number" pattern="^\+?[0-9]{10,13}$" />
                     </div>
-                    
 
+                      <!-- Email input field -->
+                    <div class="form-group">
+                        <label for="email" aria-label="Enter your email address">Email</label>
+                        <input type="email" name="email" id="email" required class="form-control" placeholder="Enter your email" />
+                    </div>
+
+                    <!--Password input field-->
+                    <div class="form-group">
+                        <label for="password" aria-label="Enetr your password">Password</label>
+                        <input type="password" name="password" id="password" required class="form-control" placeholder="Enter your password" />
+                    </div>
+
+                    
+                    <!-- Submit and Reset buttons -->
+                    <div class="btn-group">
+                        <button type="submit" class="btn btn-primary mb-2 mr-1 waves-effect waves-light">Submit</button>
+                        <button type="reset" class="btn btn-danger mb-2 waves-effect waves-light">Reset</button>
+                    </div>
+                </form>
+            </article>
+        </div>
     </section>
-</body>    
+</body>
+</html>
+
